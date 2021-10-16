@@ -18,12 +18,19 @@ body {
 /* белый #FFFFFF */
 /* вторичный цвет фона #F5F4FA */
 
+/* Шапка сайта */
+
+.site-logo:focus {
+  color: var(--akcent-color);
+}
+
 .list {
   list-style: none;
 }
 
 .site-logo {
   color: var(--main-text-color);
+  text-decoration: none;
 }
 
 .site-logo span {
@@ -41,6 +48,7 @@ body {
 
 .link {
   color: var(--main-text-color);
+  text-decoration: none;
 }
 
 .header-links .link {
@@ -50,4 +58,81 @@ body {
 .header-links .link:hover,
 .header-links .link:focus {
   color: var(--akcent-color);
+}
+
+/* основной сайт */
+
+/* секция герой */
+.section-hero {
+  background-color: var(--second-text-color);
+}
+
+h1 {
+  color: var(--bg-color);
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.hero-button {
+  color: var(--bg-color);
+  background-color: var(--akcent-color);
+}
+
+/* Секция преимуществ */
+.title {
+  font-size: 36px;
+  color: var(--main-text-color);
+}
+
+.section-advant .subtitle {
+  color: var(--main-text-color);
+  font-size: 14px;
+}
+
+.section-advant .descript {
+  color: var(--second-text-color);
+  font-size: 14px;
+}
+
+/* Секция наша команда */
+.section-comand .subtitle {
+  color: var(--main-text-color);
+  font-size: 16px;
+}
+
+.section-comand .descript {
+  color: var(--second-text-color);
+  font-size: 16px;
+}
+
+.footer-section .link {
+  color: var(--another-text-color);
+  font-size: 14px;
+}
+
+.footer-section .link:hover,
+.footer-section .link:focus {
+  color: var(--akcent-color);
+}
+
+/* Секция портфолио */
+.section-portfolio .subtitle {
+  color: var(--main-text-color);
+  font-size: 18px;
+}
+
+.section-portfolio .descript {
+  color: var(--second-text-color);
+  font-size: 16px;
+}
+
+.button {
+  color: var(--main-text-color);
+  font-size: 16px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--bg-color);
+  background-color: var(--akcent-color);
 }
