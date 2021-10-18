@@ -9,6 +9,29 @@
 
 body {
   color: #212121;
+
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* цвет основного текста #212121 */
@@ -20,16 +43,19 @@ body {
 
 /* Шапка сайта */
 
-.site-logo:focus {
-  color: var(--akcent-color);
-}
-
 .list {
   list-style: none;
 }
 
 .site-logo {
   color: var(--main-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -48,10 +74,17 @@ body {
 
 .link {
   color: var(--main-text-color);
+
+  font-style: normal;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1em;
+  letter-spacing: 0.02em;
 }
 
-.header-links .link {
+.header-links .link,
+.footer-discript .link {
   color: var(--second-text-color);
 }
 
@@ -61,7 +94,6 @@ body {
 }
 
 /* основной сайт */
-
 /* секция герой */
 .section-hero {
   background-color: var(--second-text-color);
@@ -76,6 +108,16 @@ h1 {
 .hero-button {
   color: var(--bg-color);
   background-color: var(--akcent-color);
+
+  font-size: 16px;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8em;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 
 /* Секция преимуществ */
@@ -85,29 +127,36 @@ h1 {
 }
 
 .section-advant .subtitle {
-  color: var(--main-text-color);
   font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section-advant .descript {
   color: var(--second-text-color);
-  font-size: 14px;
+
+  line-height: 1.7em;
 }
 
 /* Секция наша команда */
-.section-comand .subtitle {
-  color: var(--main-text-color);
+.section-comand {
+  background-color: var(--second-bg-color);
+}
+
+.section-comand .subtitle,
+.section-comand .descript {
   font-size: 16px;
+  line-height: 1.2;
 }
 
 .section-comand .descript {
   color: var(--second-text-color);
-  font-size: 16px;
 }
 
-.footer-section .link {
-  color: var(--another-text-color);
-  font-size: 14px;
+.section-comand .subtitle {
+  font-weight: 500;
 }
 
 .footer-section .link:hover,
@@ -118,21 +167,52 @@ h1 {
 /* Секция портфолио */
 .section-portfolio .subtitle {
   color: var(--main-text-color);
+
+  font-weight: bold;
   font-size: 18px;
+  line-height: 2;
 }
 
 .section-portfolio .descript {
   color: var(--second-text-color);
+
   font-size: 16px;
+  line-height: 1.8;
 }
 
 .button {
   color: var(--main-text-color);
+  background-color: var(--second-bg-color);
+
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.6em;
+
+  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   color: var(--bg-color);
   background-color: var(--akcent-color);
+}
+
+.footer-section {
+  background-color: #2f303a;
+}
+
+.footer-discript {
+  color: var(--bg-color);
+
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+
+.footer-section .site-logo {
+  color: var(--bg-color);
 }
