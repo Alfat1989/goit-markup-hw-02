@@ -189,6 +189,10 @@ body {
   background-color: var(--akcent-color);
 }
 
+.portfolio {
+  text-decoration: none;
+}
+
 .footer-section {
   background-color: #2f303a;
 }
